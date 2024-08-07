@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var arreglo=["te","azucar","yerba","cafe"] 
+        // for (let i=0;i<arreglo.length;i++) {
+        //     document.write(arreglo[i]+(' '))
+        // }
+
+        var arreglo=[]
+        for (let i=0;i<5;i++) {
+            arreglo[i]=prompt("Ingrese nombres: ")
+        }
+        document.write(arreglo.join(' '))
+
+        var arreglosfloat=[]
+        for (let i=0; i<5;i++) {
+            arreglosfloat [i]=parseInt(prompt("Ingrese decimales"))
+        }
+        document.write(arreglosfloat.join(' '))
+
+        var arregloint=[]
+        for (let i=0; i<5; i++) {
+            arreglosint[i]= parseInt(prompt("Ingrese numeros enteros"))
+        }
+        document.write(arreglosint.join(' '))
+
+        var arregloutiles= ["lapiz", "tijera", "marcador", "regla"]
+        document.write(arreglosutiles.join(' ')+'<br>')
+        arregloutiles.unshift('hojas A4')
+        document.write(arregloutiles.join(' '))
+        arregloutiles.pop()
+        document.write(arregloutiles.join(' '))
+        arregloutiles.shift()
+        document.write(arreglosutiles.join(' '))
+    </script>
+</body>
+</html>
